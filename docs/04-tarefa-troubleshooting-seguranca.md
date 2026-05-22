@@ -1,4 +1,4 @@
-# Etapa 4: Troubleshooting e Redes no VirtualBox
+
 
 ## 🎯 Objetivo
 Solucionar travamentos comuns do VirtualBox ao lidar com sistemas legados e mitigar riscos de segurança através do isolamento de placas de rede virtuais.
@@ -21,12 +21,14 @@ Solucionar travamentos comuns do VirtualBox ao lidar com sistemas legados e miti
 
 ### 📸 [EVIDÊNCIA]
 *Insira uma captura de tela da aba "Rede" do painel de controle do VirtualBox da sua VM demonstrando a modificação e isolamento do adaptador de rede para o modo seguro.*
-
+<img width="979" height="613" alt="Captura de tela 2026-05-22 134633" src="https://github.com/user-attachments/assets/9ce54f64-de81-47c1-a52e-dc17efa0e197" />
+# Etapa 4: Troubleshooting e Redes no VirtualBox
 ### ❓ [QUESTÃO 4]
 Se mantivéssemos o adaptador de rede da máquina virtual do Windows XP configurado no modo "Placa em modo Bridge (Bridged Adapter)" conectada à rede Wi-Fi/cabeada pública da instituição, quais seriam as consequências imediatas em termos de segurança cibernética para o laboratório e para a VM?
 
 **Sua Resposta:**
-> 
+> Pode háver diversas consequências imediatas para a VM como por exmplo: a instalação de Ransomware e Malware
+> Alem de consequências para o Laboratório como por exmplo: saturação e Queda da Rede
 
 ---
 ### 🏁 FIM DA ATIVIDADE
